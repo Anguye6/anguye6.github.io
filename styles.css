@@ -1,0 +1,41 @@
+/* styling for default homepage */
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4px;
+    margin: auto;
+    padding: auto;
+    line-height: normal;
+    background: #ffebcd;
+    color: #000000 ;
+}
+
+header {
+    background: #ffebcd;
+    color: #000000;
+    display: flex;
+    text-align: center;
+}
+
+nav {
+    color: #ffffff;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    gap: 16px;
+    padding: 16px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+section {
+    background: #ffffff;
+    text-align: center;
+    padding: 12px;
+    margin: auto;
+    max-width: 800px;
+    border-radius: 8px;
+}
